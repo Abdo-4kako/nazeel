@@ -32,7 +32,7 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${cormorant.variable} font-sans antialiased bg-[#FDFCFB] text-[#1A1A1A]`}
       >
-        <Navbar />
+        
         {children}
       </body>
     </html>
